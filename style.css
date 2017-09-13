@@ -1,0 +1,31 @@
+.or {
+    width: 100%;
+    margin: 46px auto 0;
+}
+
+.or .line {
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid #e3e3e3;
+}
+
+.or .wrapper {
+    position: relative;
+    top: -2px;
+    left: 50%;
+    z-index: 2;
+    padding: 0 10px;
+    width: fit-content;
+    background: white;
+}
+
+.or .wrapper span {
+    position: relative;
+    top: -8px;
+    padding: 4px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background: #504d67;
+    font: 10pt "LatoBold";
+    color: #fff;
+}
